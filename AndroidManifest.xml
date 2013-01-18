@@ -26,6 +26,10 @@
             android:name="zioyero.tvshows.MyShowsActivity"
             android:label="@string/title_activity_my_shows" >
         </activity>
+        <activity
+            android:name="zioyero.tvshows.NewShowActivity"
+            android:label="@string/title_activity_new_show" >
+        </activity>
     </application>
 
 </manifest>

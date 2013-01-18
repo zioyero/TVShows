@@ -7,5 +7,6 @@
     <string name="button1_text">My Shows</string>
     <string name="button2_text">New Show</string>
     <string name="title_activity_my_shows">MyShowsActivity</string>
+    <string name="title_activity_new_show">NewShowActivity</string>
 
 </resources>

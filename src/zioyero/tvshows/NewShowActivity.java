@@ -6,13 +6,13 @@ import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.view.Menu;
 
-public class MyShowsActivity extends Activity {
+public class NewShowActivity extends Activity {
 
 	@SuppressLint("NewApi")
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_my_shows);
+		setContentView(R.layout.activity_new_show);
 		
 		// Make sure we're running on honeycomb or higher to use ActionBar APIs
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB)
@@ -25,7 +25,7 @@ public class MyShowsActivity extends Activity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.activity_my_shows, menu);
+		getMenuInflater().inflate(R.menu.activity_new_show, menu);
 		return true;
 	}
 

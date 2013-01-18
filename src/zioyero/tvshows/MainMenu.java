@@ -27,5 +27,11 @@ public class MainMenu extends Activity {
 		Intent intent = new Intent(this, MyShowsActivity.class);
 		startActivity(intent);
 	}
+	
+	public void newShowGo(View view)
+	{
+		Intent intent = new Intent(this, NewShowActivity.class);
+		startActivity(intent);
+	}
 
 }
