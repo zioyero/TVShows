@@ -4,5 +4,8 @@
     <string name="app_name">TV Shows</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
+    <string name="button1_text">My Shows</string>
+    <string name="button2_text">New Show</string>
+    <string name="title_activity_my_shows">MyShowsActivity</string>
 
 </resources>
