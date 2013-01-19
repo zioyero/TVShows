@@ -1,10 +1,14 @@
 package zioyero.tvshows;
 
-import android.os.Build;
-import android.os.Bundle;
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.os.Build;
+import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
+import android.widget.EditText;
+import java.lang.Object;
+import java.net.URL;
 
 public class NewShowActivity extends Activity {
 
@@ -27,6 +31,12 @@ public class NewShowActivity extends Activity {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.activity_new_show, menu);
 		return true;
+	}
+	
+	public void addShow(View view)
+	{
+		EditText et = (EditText) findViewById(R.id.showToAdd);
+		String showName = et.getText().toString();
 	}
 
 }

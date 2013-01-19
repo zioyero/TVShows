@@ -5,7 +5,7 @@
     tools:context=".NewShowActivity" >
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/showToAdd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -13,7 +13,7 @@
         android:layout_marginTop="58dp"
         android:ems="10"
         android:inputType="text"
-        android:text="@string/newShowText" >
+        android:hint="@string/newShowText" >
 
         <requestFocus />
     </EditText>
@@ -22,7 +22,7 @@
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText1"
+        android:layout_below="@+id/showToAdd"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
         android:text="@string/newShowButton" />
