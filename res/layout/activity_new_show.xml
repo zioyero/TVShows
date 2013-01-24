@@ -25,6 +25,7 @@
         android:layout_below="@+id/showToAdd"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
+        android:onClick="addShow"
         android:text="@string/newShowButton" />
 
 </RelativeLayout>

@@ -6,13 +6,7 @@ import java.net.URL;
 import org.xmlpull.v1.*;
 
 public class TVShowDB 
-{
-	public static void main(String[] args) throws XmlPullParserException, IOException
-	{
-		getSeriesID("Suburgatory");
-		System.out.println("Process Ended.");
-	}
-	
+{	
 	public static String getSeriesID(String showName) throws XmlPullParserException, IOException
 	{
 		String url = "http://www.thetvdb.com/api/GetSeries.php?seriesname="+showName;
@@ -36,10 +30,6 @@ public class TVShowDB
 			else if(eventType == XmlPullParser.END_TAG)
 			{
 				System.out.println("End Tag: " + xpp.getName());
-			}
-			else if (eventType == XmlPullParser.END_DOCUMENT)
-			{
-				System.out.println("End Document.");
 			}
 			else if (eventType == XmlPullParser.TEXT)
 			{

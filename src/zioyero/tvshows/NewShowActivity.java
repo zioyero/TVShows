@@ -2,6 +2,8 @@ package zioyero.tvshows;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.Menu;
@@ -35,6 +37,19 @@ public class NewShowActivity extends Activity {
 	{
 		EditText et = (EditText) findViewById(R.id.showToAdd);
 		String showName = et.getText().toString();
+		
+		AlertDialog.Builder dlgAlert  = new AlertDialog.Builder(this);
+
+		dlgAlert.setMessage(showName);
+		dlgAlert.setTitle("Adding Show");
+		dlgAlert.setPositiveButton("Ok",
+			    new DialogInterface.OnClickListener() {
+			        public void onClick(DialogInterface dialog, int which) {
+			           int x = 0;
+			        }
+			    });
+		dlgAlert.setCancelable(true);
+		dlgAlert.create().show();
 	}
 
 }

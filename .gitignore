@@ -16,6 +16,9 @@ local.properties
 .settings/
 .loadpath
 
+# Log files for errors
+*.log
+
 # External tool builders
 .externalToolBuilders/
 
