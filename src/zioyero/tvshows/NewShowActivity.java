@@ -43,10 +43,10 @@ public class NewShowActivity extends Activity {
 		dlgAlert.setMessage(showName);
 		dlgAlert.setTitle("Adding Show");
 		dlgAlert.setPositiveButton("Ok",
-			    new DialogInterface.OnClickListener() {
-			        public void onClick(DialogInterface dialog, int which) {
-			           int x = 0;
-			        }
+			    new DialogInterface.OnClickListener() 
+				{
+			        public void onClick(DialogInterface dialog, int which) 
+			        {}
 			    });
 		dlgAlert.setCancelable(true);
 		dlgAlert.create().show();
